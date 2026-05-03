@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <form id="formContrato">
+        <h2>Dados do Locatário</h2>
+        <div class="grid">
+            <div class="form-group full"> <label for="nome">Nome</label> <input type="text" id="nome"
+                    placeholder="Digite o nome"> </div>
+            <div class="form-group"> <label for="nacionalidade">Nacionalidade</label> <input type="text"
+                    id="nacionalidade"> </div>
+            <div class="form-group"> <label for="estadoCivil">Estado Civil</label> <input type="text" id="estadoCivil">
+            </div>
+            <div class="form-group"> <label for="profissao">Profissão</label> <input type="text" id="profissao"> </div>
+            <div class="form-group"> <label for="cpf">CPF</label> <input type="text" id="cpf"> </div>
+            <div class="form-group"> <label for="identidade">RG</label> <input type="text" id="identidade"> </div>
+        </div>
+        <h2>Endereço</h2>
+        <div class="grid">
+            <div class="form-group full"> <label for="rua">Rua</label> <input type="text" id="rua"> </div>
+            <div class="form-group"> <label for="numero">Número</label> <input type="text" id="numero"> </div>
+            <div class="form-group"> <label for="cidade">Cidade</label> <input type="text" id="cidade"> </div>
+            <div class="form-group"> <label for="estado">Estado</label> <input type="text" id="estado"> </div>
+        </div>
+        <h2>Dados do Contrato</h2>
+        <div class="grid">
+            <div class="form-group"> <label for="apartamento">Apartamento</label> <input type="text" id="apartamento">
+            </div>
+            <div class="form-group"> <label for="meses">Meses</label> <input type="number" id="meses"> </div>
+            <div class="form-group"> <label for="data">Data</label> <input type="text" id="data"
+                    placeholder="dd/mm/aaaa"> </div>
+            <div class="form-group"> <label for="valor">Valor</label> <input type="text" id="valor"> </div>
+        </div> <button type="submit">Gerar PDF</button>
+    </form>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
