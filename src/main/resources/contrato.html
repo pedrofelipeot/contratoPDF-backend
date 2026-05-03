@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 12px;
+        }
+
+        /* 🔥 Cada cláusula não quebra no meio */
+        .clausula {
+            page-break-inside: avoid;
+        }
+
+        /* 🔥 Bloco final protegido */
+        .assinatura {
+            margin-top: 60px;
+            text-align: center;
+            page-break-inside: avoid;
+        }
+
+        .linha {
+            margin-top: 40px;
+        }
+
+        .local-data {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>CONTRATO DE LOCAÇÃO DE IMÓVEL</h1>
+<h2>PARA FINS RESIDENCIAIS</h2>
+
+<p>
+    Pelo presente instrumento particular de locação, de um lado <b>ADENILSA SILVESTRE FERREIRA</b>,
+    nacionalidade Brasileira, estado civil SOLTEIRA, profissão DO LAR, carteira de identidade RG 1.799.612 SSP-PE,
+    inscrito no CPF N° 223.782.846-49, residente e domiciliada neste município Recife - PE, dá em locação à
+    <b>{nome}</b>, nacionalidade <b>{nacionalidade}</b>,
+    estado civil <b>{estadoCivil}</b>, profissão <b>{profissao}</b>, CPF <b>{cpf}</b>,
+    identidade RG <b>{identidade}</b>, residente e domiciliado à Rua <b>{rua}</b>, nº <b>{numero}</b>,
+    na cidade de <b>{cidade}</b>, Estado de <b>{estado}</b>, o imóvel de sua propriedade, situado na Rua
+    cassilândia, N° 111 ap {apartamento}, bairro Candeias na Cidade de Jaboatão dos Guararapes, Estado de Pernambuco
+    mediante as cláusulas e condições seguintes.
+</p>
+
+<p class="clausula"><b>1º</b> A presente locação vigorará pelo prazo de {meses} meses, a contar desta data {data},
+    podendo ter sua vigência prolongada por mútuo consentimento.</p>
+
+<p class="clausula"><b>2º</b> O preço da locação é de R$ {valor} mensais, a ser pago em espécie junto com a mensalidade. Após o
+    quinto dia do vencimento do aluguel será cobrado 5% de multa, e após o décimo dia será cobrado 1% ao dia,
+    conforme a lei.</p>
+
+<p class="clausula"><b>3º</b> Caberá ao LOCATÁRIO o pagamento das despesas decorrentes do uso de energia,
+    água, esgoto, telefone e demais serviços.</p>
+
+<p class="clausula"><b>4º</b> Finda ou rescindida a locação, o LOCATÁRIO compromete-se a devolver o imóvel
+    em perfeitas condições. Na quebra do contrato, salvo exceções previstas em lei,
+    fica estipulada multa equivalente a três meses de aluguel.</p>
+
+<p class="clausula"><b>5º</b> O LOCATÁRIO não poderá sublocar ou transferir este contrato sem consentimento
+    expresso do LOCADOR.</p>
+
+<p class="clausula"><b>6º</b> O LOCATÁRIO fica ciente que não é permitido estender roupas nas janelas,
+    manter animais soltos nas áreas comuns, realizar festas ou som alto nas dependências
+    do condomínio. Motocicletas devem circular com o motor desligado.</p>
+
+<p class="clausula"><b>7º</b> O LOCATÁRIO obriga-se a manter o imóvel em perfeitas condições de higiene,
+    iluminação e conservação o imóvel que ora lhe é locado e assim restituí-lo, conforme disposto na cláusula 4°</p>
+
+<p class="clausula"><b>8º</b> Para todas as ações oriundas do presente contrato fica eleito o foro
+    desta Comarca, qualquer que seja o domicilio das partes contratantes.</p>
+
+<p>
+    E por estarem as partes, LOCADOR e LOCATÁRIO, de pleno acordo, como disposto neste instrumento particular,
+    assinam-no na presença das duas testemunhas abaixo em duas vias de igual teor e forma, destinando-se uma via
+    para cada uma das partes interessadas.
+</p>
+
+<p class="local-data"><b>JABOATÃO, {data}</b></p>
+
+<div class="assinatura">
+    <div class="linha">_________________________<br>LOCADOR</div>
+    <div class="linha">_________________________<br>LOCATÁRIO</div>
+    <div class="linha">_________________________<br>TESTEMUNHA 1</div>
+    <div class="linha">_________________________<br>TESTEMUNHA 2</div>
+</div>
+
+</body>
+
+</html>
