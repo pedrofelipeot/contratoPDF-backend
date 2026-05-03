@@ -1,3 +1,6 @@
 spring:
   application:
     name: contratoPDF
+
+server:
+  port: ${PORT:8080}
